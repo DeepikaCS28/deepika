@@ -1,0 +1,21 @@
+import java.util.*;
+public class Series5
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int c;
+        int d=11;
+        int e=d*d;
+        int f;
+        int i;
+        System.out.println(e);
+        for(i=1;i<a;i++)
+        {
+            c=d+(i*4);
+            f=c*c;
+            System.out.println(f);
+        }
+    }
+}
