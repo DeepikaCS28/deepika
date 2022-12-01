@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class bank
+{
+    public static void main(String args[])
+    {
+        Scanner sc= new Scanner(System.in);
+        int d=sc.nextInt();
+        int d1=sc.nextInt();
+        int w1=sc.nextInt();
+        int d2=sc.nextInt();
+        int d3=d+d1;
+        int d4=d3-w1;
+        int d5=d4+d2;
+        System.out.println(d5);
+    }
+}
