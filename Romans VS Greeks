@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Roamns
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int x=sc.nextInt();
+       
+        int y=sc.nextInt();
+       
+        int l=sc.nextInt();
+        int a=x+(l/2);
+        int b=y+(l/2);
+        System.out.printf("%d %d" ,a,b);    }
+}
