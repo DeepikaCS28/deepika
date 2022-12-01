@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Budget
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        float a=sc.nextFloat();
+        double a1=350.34*a;
+        float b=sc.nextFloat();
+        double b1=230.90*b;
+        float c=sc.nextFloat();
+        double c1=190.55*c;
+        float d=sc.nextFloat();
+        double d1=125.30*d;
+        float e=sc.nextFloat();
+        double e1=180.90*e;
+        double f=a1+b1+c1+d1+e1;
+        if(f<=15000)
+        {
+            System.out.println("yes");
+        }
+        else if(f>15000)
+        {
+            System.out.println("no");
+        }
+        else 
+        {
+            System.out.println("invalid input");
+        }
+    }
+}
