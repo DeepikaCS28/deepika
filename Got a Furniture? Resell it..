@@ -1,0 +1,17 @@
+import java.util.*;
+public class Furniture
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int a,d,y;
+        a=sc.nextInt();
+        d=sc.nextInt();
+        y=sc.nextInt();
+        int add,temp;
+        temp=a;
+        for(int i=0;i<y;i++)
+        temp=((100-d)*temp)/100;
+        System.out.println(temp);
+    }
+}
