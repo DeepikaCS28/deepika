@@ -1,0 +1,11 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        SortedMap numbers=new TreeMap();
+   numbers.put(2,"mango");
+   numbers.put(3,"guava");
+   numbers.put(4,"cherry");
+   numbers.put(1,"berry");
+        System.out.println(numbers);
+    }
+}
